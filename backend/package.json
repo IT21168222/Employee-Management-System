@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "E-Channeling Management System",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "concurrently \"npm start\" \"cd ../frontend && npm start\""
+  },
+  "author": "Saranga G.K.G",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "concurrently": "^8.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.2",
+    "node-cron": "^3.0.2",
+    "nodemon": "^2.0.22"
+  }
+}
